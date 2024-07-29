@@ -40,9 +40,9 @@ To set up the Ruby and Rails environment, follow these steps:
 
 ### Running the Project
 
-To run the Roastrails project in dev, use the following command:
+To run the Roastrails project in dev, use the following command in the root directory:
 ```
-rails dev
+bin/dev
 ```
 
 To run the Roastrails project in a server, use the following command:
@@ -54,10 +54,16 @@ This will start the server and make the application accessible.
 
 ### Running Tests
 
-To run the tests for the Roastrails project, use the following command:
+To run all of the tests for the Roastrails project, use the following command:
 
 ```
 rails test
+```
+
+To run tests for e.g. models and so forth use:
+
+```
+rails test:models
 ```
 
 ### Database
@@ -80,4 +86,10 @@ To manage the database for the Roastrails project, you can use the following com
 
   ```
   rails db:rollback
+  ```
+
+- To rollback and reapply the last database migration, run the following command:
+
+  ```
+  rails db:migrate:redo
   ```
