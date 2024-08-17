@@ -24,6 +24,9 @@
           <li><a href="/questions">FAQ</a></li>
           <li><a href="/news">News</a></li>
           <li><a href="/contact">Contact</a></li>
+          <% if session[:counter] > 5 %>
+            <p>Index visited <%= pluralize(session[:counter], "time") %> </p>
+          <% end %>
         </ul>
       </nav>
 
