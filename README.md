@@ -95,3 +95,7 @@ To manage the database for the Roastrails project, you can use the following com
   ```
   rails db:migrate:redo
   ```
+
+### Problems and solutions
+
+If you encounter error "ActionView::Template::Error: The asset "tailwind.css" is not present in the asset pipeline." please recompile assets using command ```bundle exec rake assets:precompile```
