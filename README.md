@@ -1,5 +1,7 @@
 # README
 
+[![CI](https://github.com/SNurmivaara/RoastRails/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/SNurmivaara/RoastRails/actions/workflows/ci.yml)
+
 ## Roastrails
 
 Roastrails is an imaginary coffee bean store built to test the functionality of Rails 7. This repository contains all the necessary information to set up and run the project.
