@@ -13,11 +13,13 @@ To set up the Ruby and Rails environment, follow these steps:
 1. Install the required dependencies by running the following command:
   ```
   sudo apt install -y build-essential git libsqlite3-dev redis ruby-dev tzdata
+  sudo dnf install -y @development-tools git sqlite-devel redis ruby-devel tzdata
   ```
 
 2. Install `rbenv` by running the following command:
   ```
   sudo apt install rbenv
+  sudo dnf install rbenv
   ```
 
 3. Initialize `rbenv` by running the following command:
@@ -38,6 +40,11 @@ To set up the Ruby and Rails environment, follow these steps:
 6. Install Rails version 7.0.4 by running the following command:
   ```
   gem install rails -v 7.0.4 --no-document
+  ```
+
+  7. Install bundle
+  ```
+  bundle install
   ```
 
 ### Running the Project
